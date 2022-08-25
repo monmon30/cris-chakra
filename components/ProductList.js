@@ -1,70 +1,82 @@
-import {
-  Stack,
-  Box,
-  Flex,
-  Center,
-  Text,
-  Img,
-  Spacer,
-  Wrap,
-  WrapItem,
-} from "@chakra-ui/react";
-import Product from "../components/Product";
+import { Stack, Box, Center, Text, Wrap, WrapItem } from "@chakra-ui/react";
+import Product from "./ProductItem";
 
 const products = [
   {
+    id: 1,
     name: "Sample Product Name",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab dolor harum, officiis ad ducimus temporibus consequuntur repellendus quis fugiat.",
     price: "$15",
+    image_url:
+      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
   },
+
   {
+    id: 2,
     name: "Sample Product Name",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab dolor harum, officiis ad ducimus temporibus consequuntur repellendus quis fugiat.",
     price: "$15",
+    image_url:
+      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
   },
   {
+    id: 3,
     name: "Sample Product Name",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab dolor harum, officiis ad ducimus temporibus consequuntur repellendus quis fugiat.",
     price: "$15",
+    image_url:
+      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
   },
   {
-    name: "Sample Product Name2",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab dolor harum, officiis ad ducimus temporibus consequuntur repellendus quis fugiat.",
-    price: "$15",
-  },
-  {
+    id: 4,
     name: "Sample Product Name",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab dolor harum, officiis ad ducimus temporibus consequuntur repellendus quis fugiat.",
     price: "$15",
+    image_url:
+      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
   },
   {
-    name: "Sample Product Name2",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab dolor harum, officiis ad ducimus temporibus consequuntur repellendus quis fugiat.",
-    price: "$15",
-  },
-  {
+    id: 5,
     name: "Sample Product Name",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab dolor harum, officiis ad ducimus temporibus consequuntur repellendus quis fugiat.",
     price: "$15",
+    image_url:
+      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
   },
+
   {
-    name: "Sample Product Name2",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab dolor harum, officiis ad ducimus temporibus consequuntur repellendus quis fugiat.",
-    price: "$15",
-  },
-  {
+    id: 6,
     name: "Sample Product Name",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab dolor harum, officiis ad ducimus temporibus consequuntur repellendus quis fugiat.",
     price: "$15",
+    image_url:
+      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+  },
+
+  {
+    id: 7,
+    name: "Sample Product Name",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab dolor harum, officiis ad ducimus temporibus consequuntur repellendus quis fugiat.",
+    price: "$15",
+    image_url:
+      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+  },
+
+  {
+    id: 8,
+    name: "Sample Product Name",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab dolor harum, officiis ad ducimus temporibus consequuntur repellendus quis fugiat.",
+    price: "$15",
+    image_url:
+      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
   },
 ];
 

@@ -1,13 +1,4 @@
-import {
-  Button,
-  Flex,
-  Heading,
-  Image,
-  Stack,
-  Text,
-  useBreakpointValue,
-} from "@chakra-ui/react";
-// import Image from "next/image";
+import { Button, Flex, Heading, Img, Stack, Text } from "@chakra-ui/react";
 
 const SplitScreen = () => {
   return (
@@ -39,12 +30,17 @@ const SplitScreen = () => {
             >
               Create Project
             </Button>
-            <Button rounded={"full"}>How It Works</Button>
+            <Button
+              onClick={() => console.log(process.env.NEXT_PUBLIC_SAMPLE)}
+              rounded={"full"}
+            >
+              How It Works
+            </Button>
           </Stack>
         </Stack>
       </Flex>
       <Flex flex={1}>
-        <Image
+        <Img
           alt={"Login Image"}
           objectFit={"cover"}
           src={

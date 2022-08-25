@@ -1,7 +1,7 @@
 import Head from "next/head";
 import NavBar from "../components/NavBar";
 import Hero from "../components/Hero";
-import Products from "../components/Products";
+import ProductList from "../components/ProductList";
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
       <main>
         <NavBar />
         <Hero />
-        <Products />
+        <ProductList />
       </main>
     </div>
   );
